@@ -5,7 +5,7 @@ Hello Everyone, We have build a clone of Dermstore. Currently, we are pursuing t
 
 ![App Screenshot](https://snipboard.io/OulBQD.jpg)
 
-> • Deployed Link - [Dermstore](dermstore-clone-01.vercel.app)
+> • Deployed Link - [Dermstore](https://dermstore-clone-01.vercel.app)
 
 *System display size 💻 = 1024 to 1680 pixels*
 <br>
