@@ -76,23 +76,22 @@ This is the Checkout page, which is the last page of the website. The user will 
 
 
 ## Team Members
-
+> ### • [Md Talib](https://github.com/talib789)
 > ### • [Ayush Kumar](https://github.com/ayush-kr05)
 > ### • [Vaibhav Suryawanshi](https://github.com/Vaibhav3534)
 > ### • [Krishna Chaturvedi](https://github.com/krishnachaturvedi1901)
 > ### • [Yashasvi Vij](https://github.com/yashasvij-19)
-> ### • [Md Talib](https://github.com/talib789)
-
 
 ## Technology Used
 > • React,
 > • React-Redux,
 > • React-Router,
 > • Material UI,
-> • React-Router,
 > • Module CSS,
-> • API
 > • JSON Server
+> • ExpressJS,
+> • MongoDB,
+> • NodeJS
 
 ## Tools
 > • VS Code
