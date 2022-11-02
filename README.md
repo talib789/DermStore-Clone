@@ -1,3 +1,10 @@
+## INTRODUCTION :
+
+Hello Everyone, We have build a clone of Dermstore. Currently, we are pursuing the Full Stack Web Development course at Masai School. We are in last week of unit 6 which is known by construct week . In this week we build the clone of Dermstore which is given by Masai School . Thanks to Masai School for this opportunity.
+<br>
+
+![App Screenshot](https://snipboard.io/OulBQD.jpg)
+
 > • Deployed Link - [Dermstore](dermstore-clone-01.vercel.app)
 
 *System display size 💻 = 1024 to 1680 pixels*
