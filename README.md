@@ -1,4 +1,4 @@
-> • Netlify Deployed Link - [Dermstore](https://dermstore-01.netlify.app)
+> • Deployed Link - [Dermstore](dermstore-clone-01.vercel.app)
 
 *System display size 💻 = 1024 to 1680 pixels*
 <br>
