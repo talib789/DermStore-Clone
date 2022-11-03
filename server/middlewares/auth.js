@@ -23,11 +23,11 @@ authRouter.post("/login", async (req, res) => {
   const { email, password } = req.body;
   try {
     const user = await User.findOne({ email });
-    // console.log(user);
+   
     if (!user) {
       return res.status(200).send({ message: "User not found" });
     } else if (user.password !== password) {
-      // console.log(user.password, password);
+    
       return res.status(200).send({ message: "Wrong Password" });
     } else {
       return res.send({ message: "Login Success", token: user._id });
