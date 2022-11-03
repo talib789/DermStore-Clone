@@ -17,16 +17,14 @@
     height: auto;
     width: 1400px;
     margin: 10px auto 10px;
-    display: flex;
-    /* border: 1px solid red; */
+    display: flex; 
 }
 .pdImages{
     height: 652px;
     width: 798px;
     display: flex;
     margin:15px,30px,15px,5px;
-    /* border: 1px solid green; */
-
+   
 }
 .pdAllImages{
     width: 80px;
@@ -46,8 +44,7 @@
     height:652px;
     width:710px;
     display: flex;
-    /* border: 1px solid rgb(117, 108, 196); */
-
+   
 }
 .divMainImg{
     height:600px;
