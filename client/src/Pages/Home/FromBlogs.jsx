@@ -11,13 +11,13 @@ export const FromBlogs = () => {
         <img src="https://static.thcdn.com/images/small/webp/widgets/208-us/27/fragrance_blog_%281%29-075627.jpg" />
         <h6>Introducing: The Fragrance Shop</h6>
       </div>
-      <div>
+       <div>
         <img src="https://static.thcdn.com/images/small/webp/widgets/208-us/13/Augustinus-Bader_1659128996-848x672-013513.jpg" />
         <h6>
           Introducing Augustinus Bader: Your One Stop Shop for Science-Backed
           Beauty
         </h6>
-      </div>
+       </div>
       <div>
         <img src="https://static.thcdn.com/images/small/webp/widgets/208-us/38/skin_timeline_%281%29-051238.jpg" />
         <h6>The Ultimate Skin Care Timeline</h6>
