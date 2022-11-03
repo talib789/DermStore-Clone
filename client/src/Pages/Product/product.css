@@ -1,5 +1,4 @@
 .sort {
-  /* border: 1px solid green; */
   padding: 0 0 5% 8%;
   width: 20%;
   margin-top: 1%;
@@ -8,9 +7,7 @@
   margin-top: 2%;
   margin-bottom: 2%;
 }
-/* .sort > div > h3{
-    padding-top: 0px;
-} */
+
 .sort button {
   width: 8%;
   height: 20px;
@@ -22,7 +19,6 @@
 .SI {
   cursor: pointer;
   display: flex;
-  /* background-color: red; */
   border: 1px solid white;
 }
 .SI:hover {
@@ -85,8 +81,6 @@
   width: 99%;
   min-height: 60%;
   margin-bottom: 5%;
-  /* border: 1px sloid red; */
-  /* background-color: blue; */
 }
 
 .TRP {
