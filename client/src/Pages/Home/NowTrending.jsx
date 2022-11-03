@@ -14,17 +14,17 @@ export const NowTrending = () => {
         <img
           src="https://static.thcdn.com/images/small/webp/widgets/208-us/56/Travel_Size-050756.png"
           alt="prodv"
-        />
+         />
         <h6>Travel Size</h6>
-      </div>
-      <div>
+       </div>
+       <div>
         <img
           src="https://static.thcdn.com/images/small/webp/widgets/208-us/15/Self_Tanner-070615.jpg"
           alt="prodv"
-        />
+         />
         <h6>Self Tanner</h6>
-      </div>
-      <div>
+       </div>
+       <div>
         <img
           src="https://static.thcdn.com/images/small/webp/widgets/208-us/23/Site_294x368-080123.png"
           alt="prodv"
