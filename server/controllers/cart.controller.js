@@ -60,7 +60,7 @@ cart.patch("/inc/:id", async (req, res) => {
     // db.users.updateOne({ _id: ObjectId('6340466ede6af2d810b2367e'), "cartItems.id": "10956-020" }, { $set: { "cartItems.$.quantity": 2 } })
     // db.carts.updateOne({ _id: ObjectId('634012651b299255346e8a54'), "demo.name": "vishal" }, { $set: { "demo.$.name": "vishalkarale" } })
     // db.users.updateOne({ _id: ObjectId('6340466ede6af2d810b2367e'), "cartItems.review_count": 118 }, { $set: { "review_count.$.quantity": 2 } })
-  } catch (error) {
+   } catch (error) {
     res.send(error);
   }
 });
@@ -98,7 +98,7 @@ cart.patch("/dec/:id", async (req, res) => {
   } catch (error) {
     res.send(error);
   }
-});
+ });
 // db.students.updateOne(
 //     { _id: 4, "grades.grade": 85 },
 //     { $set: { "grades.$.std": 6 } }
@@ -131,7 +131,7 @@ cart.delete("/all/:id", async (req, res) => {
   } catch (error) {
     res.status(404).send(error.message);
   }
-});
+ });
 
 cart.get("/count", async (req, res) => {
   try {
@@ -141,6 +141,6 @@ cart.get("/count", async (req, res) => {
   } catch (error) {
     res.status(404).send(error.message);
   }
-});
+ });
 
 module.exports = cart;
