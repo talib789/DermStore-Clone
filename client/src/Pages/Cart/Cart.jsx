@@ -90,7 +90,7 @@
 //             fontSize="14px"
 //             p={2}
 //             w="90%"
-//           >
+//            >
 //             You have qualified for: Choose your gift with any purchase over $50
 //             - Don't forget to make your selection below
 //           </Box>
@@ -123,7 +123,7 @@
 //                       <Td
 //                         style={{ fontSize: "14px", fontWeight: "700" }}
 //                         isNumeric
-//                       >
+//                        >
 //                         {product.price}
 //                       </Td>
 //                       <Td style={{ fontSize: "14px" }} isNumeric>
@@ -146,7 +146,7 @@
 //               height="120px"
 //               p={2}
 //               marginLeft="50px"
-//             >
+//              >
 //               <div style={{ display: "flex" }}>
 //                 <p style={{ fontSize: "18px", fontWeight: "700" }}>
 //                   Gift Selection
