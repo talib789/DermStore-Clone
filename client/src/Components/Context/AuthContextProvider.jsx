@@ -7,7 +7,6 @@ export default function AuthContextProvider({ children }) {
 	const handleAuth = (value) => {
 		setIsAuth(value);
 	};
-
 	return (
 		<AuthContext.Provider value={{ isAuth, handleAuth }}>
 			{children}
