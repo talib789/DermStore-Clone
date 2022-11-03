@@ -100,7 +100,6 @@ export const ProductPage = () => {
       (d) => d.json()
     );
     setItems(data);
-    //  console.log(data);
   }
 
   const Sort = (e) => {
@@ -143,7 +142,6 @@ export const ProductPage = () => {
         setItems(data);
       });
   };
-
   // const SetToReduce = () => {
   //   axios.get(`https://ayush05.herokuapp.com/dermcart`).then(({ data }) => {
   //     dispatch(fetchCartData(data));
@@ -162,7 +160,6 @@ export const ProductPage = () => {
   };
 
   const sendToCart = (elem) => {
-    // console.log(elem);
     if (!isAuth) {
       alert("Please login");
       return;
@@ -200,8 +197,6 @@ export const ProductPage = () => {
       <div style={{ width: "100%", display: "flex", marginBottom: "3%" }}>
         <div className="sort">
           <div>
-            {/* <h3> Refine</h3> */}
-            {/* <hr /> */}
             <br />
           </div>
           <div>
