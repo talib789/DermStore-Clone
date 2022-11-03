@@ -118,10 +118,7 @@
 .to_active:hover + .display {
   display: block;
 }
-/* .display{
-  margin-top: 1%;
-  text-align: left;
-} */
+
 .delivery {
   margin-top: 6%;
   width: 100%;
@@ -301,9 +298,6 @@
 .data_div > :nth-child(2) {
   margin-left: 15%;
 }
-/* .footera {
-  margin-top: 15%;
-} */
 
 .headerLogo {
   margin-top: 20px;
