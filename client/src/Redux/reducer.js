@@ -14,5 +14,5 @@ export const reducer = (state = initState, action) => {
       return { ...state, CartCount: action.payload };
     default:
       return state;
-  }
+   }
 };
