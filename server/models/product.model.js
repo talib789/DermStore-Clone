@@ -21,8 +21,8 @@ const productSchema = new mongoose.Schema(
     item_in_cart: String,
     item_like: String,
     item_stock: String,
-  },
-  {
+   },
+   {
     versionKey: false,
   }
 );
