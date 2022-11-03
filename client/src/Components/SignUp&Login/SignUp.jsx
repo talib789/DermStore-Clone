@@ -50,7 +50,7 @@ export const SignUp = () => {
           marginTop: "5px",
         }}
       >
-        <Link to="/">
+         <Link to="/">
           <div id="nav1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@ export const SignUp = () => {
               color="#222222"
               viewBox="0 0 259 64"
               className="headerLogo"
-            >
+             >
               <g fill="currentColor" fillRule="evenodd">
                 <g fill="currentColor" fillRule="nonzero">
                   <g>
