@@ -23,7 +23,6 @@ const cartSchema = new mongoose.Schema(
         item_stock: String,
     },
     {
-
     versionKey: false,
     timestamps: true,
     }
