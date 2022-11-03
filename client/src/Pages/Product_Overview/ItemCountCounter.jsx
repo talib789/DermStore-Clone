@@ -47,11 +47,11 @@ const ChildToParent = () => {
 
   return (
     <div>
-      <ItemCountCounter
+       <ItemCountCounter
         value={count}
         handleIncrement={() => handleChange(1)}
         handleDecrement={() => handleChange(-1)}
-      />
+       />
     </div>
   );
 };
