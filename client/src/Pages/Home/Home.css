@@ -21,26 +21,32 @@
   margin: 20px 30px;
   align-items: center;
 }
+
 .SlidingProdSmall {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+
 .ProdSmallDiv > img {
   width: 100%;
 }
+
 .homeSection h3 {
   margin-top: 40px;
 }
+
 .shop_category {
   display: grid;
   margin: 30px 40px;
   gap: 20px;
   grid-template-columns: repeat(6, 1fr);
 }
+
 .shop_category > a img {
   width: 100%;
   transition: 0.2s;
 }
+
 .shop_category > a img:hover {
   transform: scale(1.1);
 }
