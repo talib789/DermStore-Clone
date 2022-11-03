@@ -43,7 +43,7 @@ export const Home = () => {
             <SmallSlider />
           </div>
         </div>
-        {/* -----------------{Part 4} -------------------*/}
+         {/* -----------------{Part 4} -------------------*/}
         <div className="SingleImmg">
           <Link to="/products">
             <img
@@ -52,7 +52,7 @@ export const Home = () => {
             />
           </Link>
         </div>
-        {/* -----------------{Part 5} -------------------*/}
+         {/* -----------------{Part 5} -------------------*/}
         <div>
           <h3>Shop By Category</h3>
           <div className="shop_category">
@@ -62,7 +62,7 @@ export const Home = () => {
             <ShopByCategory2 />
           </div>
         </div>
-        {/* -----------------{Part 6} -------------------*/}
+         {/* -----------------{Part 6} -------------------*/}
         <div>
           <SlidingProducts />
         </div>
