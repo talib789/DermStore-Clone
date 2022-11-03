@@ -32,10 +32,10 @@ const Button = styled.button`
   border: none;
   transition: 0.2s;
 
-  &: hover {
+   &: hover {
     background-color: rgb(95, 92, 92);
   }
-`;
+ `;
 
 const handleDragStart = (e) => e.preventDefault();
 
@@ -45,8 +45,6 @@ export const CaroselItems = () => {
   React.useEffect(() => {
     getSearchData();
   }, []);
-
-  //   console.log(products);
 
   const getSearchData = () => {
     fetch(`http://localhost:8080/products?&_limit=15`)
@@ -66,8 +64,7 @@ export const CaroselItems = () => {
       </StyleCard>
     );
   });
-  //   console.log(Items);
-
+ 
   return (
     <AliceCarousel mouseTracking items={Items} infinite={true} responsive={5} />
   );
