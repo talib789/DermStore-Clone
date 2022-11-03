@@ -10,7 +10,7 @@ const userSchema = new mongoose.Schema(
     referralCode: { type: String },
     reward: { type: String },
     cartItems: [
-      {
+       {
         id: String,
         brand_logo_url: String,
         name: String,
