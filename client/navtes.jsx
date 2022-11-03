@@ -21,7 +21,7 @@ export const Navbar = () => {
               color="#222222"
               viewBox="0 0 259 64"
               className="headerLogo"
-            >
+             >
               <g fill="currentColor" fillRule="evenodd">
                 <g fill="currentColor" fillRule="nonzero">
                   <g>
@@ -40,7 +40,7 @@ export const Navbar = () => {
               value={searchParam}
               placeholder="Search for a Product or Brand..."
               onChange={handleSearch}
-            />
+             />
             <button id="search_btn">
               <svg
                 width="22"
@@ -49,7 +49,7 @@ export const Navbar = () => {
                 viewBox="0 0 24 24"
                 stroke="black"
                 fill="white"
-              >
+               >
                 <title>Search</title>
                 <path
                   d="M22 22l-6.344-6.344M10 18a8 8 0 100-16 8 8 0 000 16z"
