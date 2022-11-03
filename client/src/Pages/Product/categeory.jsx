@@ -1,5 +1,5 @@
 export const Categeory = {
-  Category: [
+ Category: [
     ["Moisturizers", 2],
     ["Face Makeup", 4],
     ["Eye Care", 3],
@@ -16,7 +16,7 @@ export const Categeory = {
     ["Supergoop!", 1],
     ["Tarte", 0],
     ["Vapour Beauty", 3],
-  ],
+ ],
   Makeup_Category: ["Lips", "Makeup", "Eyes", "Palettes", "Complexion"],
   Makeup_Product_Type: ["Blusher"],
   Complexion_Format: ["Cream", "Liquid", "Stick"],
