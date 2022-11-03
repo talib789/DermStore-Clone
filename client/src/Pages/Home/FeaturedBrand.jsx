@@ -34,10 +34,10 @@ export const FeaturedBrand = () => {
         />
       </div>
       <div>
-        <img
+         <img
           src="https://static.thcdn.com/images/small/webp/widgets/208-us/21/augustinusbader-124221.gif"
           alt="prod"
-        />
+         />
       </div>
     </>
   );
