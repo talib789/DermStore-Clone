@@ -51,13 +51,11 @@ export const CartAk = () => {
       .catch((err) => console.log(err))
       .finally(() => SetToReduce());
   }
-
   // function getCount() {
   //   fetch(" https://dermstore-server-ayush.herokuapp.com/cart/count")
   //     .then((res) => res.json())
   //     .then((res) => setCount(res));
   // }
-
   function handlePromo(e) {
     setPromo(e.target.value);
   }
@@ -77,9 +75,7 @@ export const CartAk = () => {
       )
       .then(getCartData());
   };
-
   //Data Increase In Cart
-
   const handleIncrease = (id) => {
     console.log("increa", id);
     fetch(
@@ -102,7 +98,6 @@ export const CartAk = () => {
     ).then(getCartData());
     setPoint(Number(CarTotalAmount / 3).toFixed(0));
   };
-
   // const applyDiscout = () => {
   //   if (promo == "masai30") {
   //     CarTotalAmount = Math.ceil(CarTotalAmount * 0.7);
