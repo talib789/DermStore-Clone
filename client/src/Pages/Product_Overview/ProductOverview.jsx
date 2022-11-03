@@ -8,7 +8,6 @@ import { ItemCountCounter } from "./ItemCountCounter";
 
 import Rating from "@mui/material/Rating";
 import Stack from "@mui/material/Stack";
-
 import Radio from "@mui/material/Radio";
 import RadioGroup from "@mui/material/RadioGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
@@ -38,9 +37,9 @@ export const ProductOverview = () => {
       <Navbar />
       <div>
         <div className="pd1">
-          <p className="pd2">
+           <p className="pd2">
             Home / Skincare / {data.item_category} / {data.name}
-          </p>
+           </p>
         </div>
 
         <div className="pd3">
@@ -79,8 +78,8 @@ export const ProductOverview = () => {
                   aria-labelledby="demo-radio-buttons-group-label"
                   defaultValue={data.mrp}
                   name="radio-buttons-group"
-                >
-                  <div id="rateOption">
+                  >
+                   <div id="rateOption">
                     <FormControlLabel
                       value={data.mrp}
                       control={<Radio />}
@@ -96,7 +95,7 @@ export const ProductOverview = () => {
                   </div>
                 </RadioGroup>
               </FormControl>
-            </div>
+             </div>
             <div className="mrpDiv">
               <h3>{"$" + data.mrp}</h3>
               <p>Subscribe to this product to save 15%</p>
