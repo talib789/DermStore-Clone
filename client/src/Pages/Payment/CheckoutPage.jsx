@@ -31,11 +31,11 @@ export const CheckoutPage = () => {
   // }, []);
   console.log(TotalPay);
   //   async function getData() {
-  //    const data = await fetch("https://ayush05.herokuapp.com/dermcart").then((d) =>
-  //      d.json()
+  //     const data = await fetch("https://ayush05.herokuapp.com/dermcart").then((d) =>
+  //       d.json()
   //     );
   //     setCartitem(data);
-  //    //  console.log(data);
+  //     //  console.log(data);
   //   }
   // const [paymentSucsess, setPaymentSucsesss] = React.useState(false);
   React.useEffect(() => {
@@ -44,17 +44,17 @@ export const CheckoutPage = () => {
 
   const SetToReduce = () => {
     axios
-      .get(` https://dermstore-server-ayush.herokuapp.com/items/${Token}`)
+      .get(` https://dermstore.cyclic.app/items/${Token}`)
       .then(({ data }) => {
         dispatch(fetchCartData(data));
         dispatch(GetCartCount(data[0].cartItems.length));
-         // console.log(data);
+        // console.log(data);
       });
   };
 
   function getCartData() {
-     // console.log(` https://dermstore-server-ayush.herokuapp.com/items/${Token}`);
-    fetch(` https://dermstore-server-ayush.herokuapp.com/items/${Token}`)
+    // console.log(` https://dermstore-server-ayush.herokuapp.com/items/${Token}`);
+    fetch(` https://dermstore.cyclic.app/items/${Token}`)
       .then((res) => res.json())
       .then((res) => setCartdata(res[0].cartItems))
       .catch((err) => console.log(err))
@@ -64,9 +64,7 @@ export const CheckoutPage = () => {
   const handlePaymentSuccess = () => {
     alert("Your Order is Successfully Placed");
     axios
-      .delete(
-        ` https://dermstore-server-ayush.herokuapp.com/items/all/${Token}`
-      )
+      .delete(` https://dermstore.cyclic.app/items/all/${Token}`)
       .then(SetToReduce())
       .then(navigate("/"));
   };
