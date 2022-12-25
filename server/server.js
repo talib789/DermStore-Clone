@@ -19,11 +19,11 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
-const port = 8080;
+const port = process.env.PORT || 8080;
 app.listen(port, async (req, res) => {
   try {
     await connection;
-    console.log("connecting");
+    console.log("connected to server");
   } catch (error) {
     console.log(error.message);
   }
