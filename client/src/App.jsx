@@ -26,7 +26,7 @@ function App() {
         <Route path="/products/:id" element={<ProductOverview />} />
       </Routes>
     </div>
-   );
- }
+  );
+}
 
 export default App;
